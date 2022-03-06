@@ -52,6 +52,7 @@ color = None
 radio_fill_isChecked = True
 p = f'{environ["APPDATA"]}/Axolot Games/Scrap Mechanic/User/'
 blueprint_path = f'{p}{listdir(p)[0]}/Blueprints/'
+
 app = QApplication([])
 app.setApplicationName('Scrap Mechanic Körgenerátor')
 w = QWidget(styleSheet='QWidget {font-family: Arial; background-color: #71797e;} QMessageBox QLabel {color: white; font-weight: bold;}', windowIcon=QIcon('icon.png'), minimumWidth=500, maximumWidth=500)
